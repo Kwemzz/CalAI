@@ -10,6 +10,7 @@ html,body{
     margin: 0;
     padding: 0;
     width: 100%;
+    overflow-x: hiddengi;
 }
 
 #main{
@@ -577,4 +578,16 @@ img{
         gap: 40px;
     }
 }
+
+@media (max-width: 600px) {
+    .mainfeed {
+        padding: 120px 10px; 
+        overflow-x: hidden; 
+    }
+
+    .messages {
+        padding: 20px;    
+    }
+}
+
 
